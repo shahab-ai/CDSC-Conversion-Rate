@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label=<new_user &le; 0.5<br/>gini = 0.444<br/>samples = 316198<br/>value = [6241482000, 3120588000]<br/>class = 0>, fillcolor="#e5813980"] ;
+1 [label=<country &le; 0.5<br/>gini = 0.497<br/>samples = 99454<br/>value = [1882541115, 2190654000]<br/>class = 1>, fillcolor="#399de524"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<age &le; 35.5<br/>gini = 0.079<br/>samples = 23094<br/>value = [469702116, 20196000]<br/>class = 0>, fillcolor="#e58139f4"] ;
+1 -> 2 ;
+3 [label=<gini = 0.102<br/>samples = 16705<br/>value = [339446874, 19278000]<br/>class = 0>, fillcolor="#e58139f1"] ;
+2 -> 3 ;
+4 [label=<gini = 0.014<br/>samples = 6389<br/>value = [130255242, 918000]<br/>class = 0>, fillcolor="#e58139fd"] ;
+2 -> 4 ;
+5 [label=<age &le; 29.5<br/>gini = 0.478<br/>samples = 76360<br/>value = [1412838999, 2170458000]<br/>class = 1>, fillcolor="#399de559"] ;
+1 -> 5 ;
+6 [label=<gini = 0.425<br/>samples = 38019<br/>value = [673753704, 1526022000]<br/>class = 1>, fillcolor="#399de58e"] ;
+5 -> 6 ;
+7 [label=<gini = 0.498<br/>samples = 38341<br/>value = [739085295, 644436000]<br/>class = 0>, fillcolor="#e5813921"] ;
+5 -> 7 ;
+8 [label=<country &le; 0.5<br/>gini = 0.29<br/>samples = 216744<br/>value = [4358940885, 929934000]<br/>class = 0>, fillcolor="#e58139c9"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<age &le; 29.5<br/>gini = 0.02<br/>samples = 53508<br/>value = [1090668384, 11016000]<br/>class = 0>, fillcolor="#e58139fc"] ;
+8 -> 9 ;
+10 [label=<gini = 0.034<br/>samples = 25847<br/>value = [526589349, 9180000]<br/>class = 0>, fillcolor="#e58139fb"] ;
+9 -> 10 ;
+11 [label=<gini = 0.006<br/>samples = 27661<br/>value = [564079035, 1836000]<br/>class = 0>, fillcolor="#e58139fe"] ;
+9 -> 11 ;
+12 [label=<age &le; 27.5<br/>gini = 0.343<br/>samples = 163236<br/>value = [3268272501, 918918000]<br/>class = 0>, fillcolor="#e58139b7"] ;
+8 -> 12 ;
+13 [label=<gini = 0.424<br/>samples = 64115<br/>value = [1270671909, 556308000]<br/>class = 0>, fillcolor="#e581398f"] ;
+12 -> 13 ;
+14 [label=<gini = 0.26<br/>samples = 99121<br/>value = [1997600592, 362610000]<br/>class = 0>, fillcolor="#e58139d1"] ;
+12 -> 14 ;
+}
