@@ -7,4 +7,4 @@ Your project is to:
 * Predict conversion rate
 * Come up with recommendations for the product team and the marketing team to improve conversion rate
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/shahab-ai/CDSC-Conversion-Rate/master?filepath=https%3A%2F%2Fgithub.com%2Fshahab-ai%2FCDSC-Conversion-Rate%2Fblob%2Fmaster%2Fsolution.ipynb)
+Please see the [Jupyter Notebook](./solution.ipynb) on my repository or [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/shahab-ai/CDSC-Conversion-Rate/master?filepath=https%3A%2F%2Fgithub.com%2Fshahab-ai%2FCDSC-Conversion-Rate%2Fblob%2Fmaster%2Fsolution.ipynb)
